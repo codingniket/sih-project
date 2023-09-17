@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function carousel() {
   return (
     <div className="">
-      <div className="carousel w-full lg:h-[400px]">
-        <div id="item1" className="carousel-item w-full">
+      <div className="carousel w-full h-96">
+        <div id="item1" className="carousel-item w-full h-96" >
           <img src="/images/intro-1.jpg" className="w-full" />
         </div>
         <div id="item2" className="carousel-item w-full">
