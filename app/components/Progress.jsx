@@ -46,7 +46,7 @@ export default function Progress()
                     {items.title}
                   </h2>
                   <p>{items.description}</p>
-                  <div className="card-actions justify-end">
+                  <div className="card-actions justify-start">
                   <progress className="progress progress-warning w-56" value={(items.Completed/items.LearningTime)*100} max="100"></progress>
                   </div>
                 </div>
