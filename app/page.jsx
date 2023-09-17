@@ -10,6 +10,9 @@ export default function Home() {
     <>
     
     <Carousel />
+    <div className=" text-3xl font-extrabold px-4">
+      <h1>Popular Coures</h1>
+    </div>
     <Card className="py-10" />
     </>
   )
