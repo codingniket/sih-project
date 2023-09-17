@@ -55,8 +55,8 @@ export default function Card() {
     <div className="py-4 px-2 md:px-20">
       <div className="carousel gap-4 w-full">
         {popularCourses.map((items, index) => (
-          <div className="carousel-item" key={index}>
-            <div className="w-[300px] sm:max-w-sm card  bg-base-100 shadow-xl">
+          <div className="carousel-item py-4" key={index}>
+            <div className="w-[300px] sm:max-w-sm card  bg-base-100 shadow ">
               <figure>
                 <img src={items.imageSrc} alt="Courses" />
               </figure>
