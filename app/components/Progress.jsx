@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const ongoingCourses = [
     {
       imageSrc: "/images/ml.png",
@@ -38,8 +40,11 @@ export default function Progress()
           {ongoingCourses.map((items, index) => (
             <div className="carousel-item py-4" key={index}>
               <div className="w-[300px] sm:max-w-sm card  bg-base-100 shadow ">
+              
                 <figure>
+                <Link href="/videoplayer">
                   <img src={items.imageSrc} alt="Courses" />
+                  </Link>
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">
@@ -50,9 +55,11 @@ export default function Progress()
                   <progress className="progress progress-warning w-56" value={(items.Completed/items.LearningTime)*100} max="100"></progress>
                   </div>
                 </div>
+          
               </div>
             </div>
           ))}
+        
         </div>
       </div>
     )
