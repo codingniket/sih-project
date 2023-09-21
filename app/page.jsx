@@ -2,11 +2,11 @@ import React from "react";
 import Carousel from "./components/carousel";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
-
+import TopCreator from "./components/TopCreator";
 
 export default function Home() {
   return (
-    <div className="z-0">
+    <div className="">
     <Carousel />
     <div className=" text-3xl font-extrabold px-4 text-white">
       <h1>Ongoing Coures</h1>
@@ -16,7 +16,12 @@ export default function Home() {
       <h1>Popular Coures</h1>
     </div>
     <Card className="py-10" />
-     
+    <div className="flex justify-center text-3xl font-extrabold px-4 text-warning">
+      <h1>Creator Of the Week</h1>
     </div>
-  );
+    <TopCreator className="py-10" />
+
+    
+    </div>
+      );
 }
