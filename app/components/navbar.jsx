@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
+import Image from "next/image";
+import Logo from "@/public/images/Team.png"
 
 export const navItems = [
     {
@@ -22,15 +24,26 @@ export const navItems = [
 
 export default function navbar() {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-sm py-4 fixed border-b-white border-b-[1px]">
+    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-base-100 text-sm py-4 fixed">
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
       >
-        <div className="flex items-center justify-between">
-          <a className="flex-none text-xl font-semibold text-[#f4c430]" href="#">
-            Brand
+        <div className="flex items-center justify-center ">
+          <div className="flex gap-2 items-center">
+            
+             <Image
+                src={Logo}
+                alt='Logo'
+                width={40}
+                quality={40}
+              />
+            
+          <a className="text-xl font-semibold text-[#f4c430]" href="#">
+           GYANKOSH
           </a>
+          </div>
+
           <div className="sm:hidden">
             <button
               type="button"

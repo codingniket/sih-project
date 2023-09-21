@@ -2,33 +2,25 @@ import Link from "next/link"
 
 export const ongoingCourses = [
     {
-      imageSrc: "/images/ml.png",
-      title: "Machine Learning",
-      description: "Learning About Machine",
-      LearningTime: 72, //In hours
+      imageSrc: "/images/cloud.png",
+      title: "Google Cloud",
+      description: "Zero to Hero in 180 Days",
+      LearningTime: 100, //In hours
       Completed: 40,
     },
     {
-        imageSrc: "/images/ml.png",
-        title: "Machine Learning",
-        description: "Learning About Machine",
-        LearningTime: 72, //In hours
-        Completed: 4,
+        imageSrc: "/images/compiler.png",
+        title: "Compiler Design",
+        description: "How a computer works",
+        LearningTime: 48, //In hours
+        Completed: 20,
     },
     {
-        imageSrc: "/images/ml.png",
+        imageSrc: "/images/machine.jpeg",
         title: "Machine Learning",
-        description: "Learning About Machine",
+        description: "Microsoft Certified Free Course",
         LearningTime: 72, //In hours
-        Completed: 69,
-    },
-    {
-        imageSrc: "/images/ml.png",
-        title: "Machine Learning",
-        description: "Learning About Machine",
-        LearningTime: 72, //In hours
-        Completed:20,
-        
+        Completed: 58,
     },
 ]
 

@@ -6,7 +6,7 @@ import Progress from "./components/Progress";
 
 export default function Home() {
   return (
-    <>
+    <div className="z-0">
     <Carousel />
     <div className=" text-3xl font-extrabold px-4 text-white">
       <h1>Ongoing Coures</h1>
@@ -17,6 +17,6 @@ export default function Home() {
     </div>
     <Card className="py-10" />
      
-    </>
+    </div>
   );
 }
