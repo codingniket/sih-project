@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
-import Logo from "@/public/images/Team.png"
-
 export const navItems = [
     {
     name : "Home",
@@ -33,9 +31,10 @@ export default function navbar() {
           <div className="flex gap-2 items-center">
             
              <Image
-                src={Logo}
+                src='/images/Team.png'
                 alt='Logo'
                 width={40}
+                height={40}
                 quality={40}
               />
             

@@ -11,6 +11,7 @@ const students = [
 export default function StudentRanking () {
   // Sort students by points in descending order
   const sortedStudents = [...students].sort((a, b) => b.points - a.points);
+  const altImageUrl = "https://t4.ftcdn.net/jpg/04/62/63/65/360_F_462636502_9cDAYuyVvBY4qYJlHjW7vqar5HYS8h8x.jpg"
 
   return (
     <div className="container mx-auto mt-10 w-1/2 text-center">
@@ -33,8 +34,8 @@ export default function StudentRanking () {
               <td className="p-4 text-center">{index + 1}</td>
               <td className="p-4 flex justify-center">
                 <img
-                  src={student.image}
-                  alt={student.name}
+                  src={student.image ? student.image : altImageUrl} 
+                  alt={student?.name}
                   className="w-16 h-16 object-cover rounded-full"
                 />
               </td>

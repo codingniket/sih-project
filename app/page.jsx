@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "./components/carousel";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
-import TopCreator from "./components/TopCreator";
 import StudentRanking from "./components/StudentRanking";
 
 export default function Home() {

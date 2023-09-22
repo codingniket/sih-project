@@ -1,6 +1,4 @@
-import Photo from "@/public/images/Creator.jpg"
 import Image from "next/image";
-
 
 export default function TopCreator() {
   return (
@@ -27,7 +25,7 @@ export default function TopCreator() {
             <div className="stat-figure text-secondary">
             <div className="avatar online">
                 <div className="w-16 rounded-full">
-                <Image src={Photo} className="" />
+                <Image src='/images/Creator.jpg' width={40} height={40} className="" />
                 </div>
             </div>
             </div>
