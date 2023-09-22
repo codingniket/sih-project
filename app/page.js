@@ -3,6 +3,7 @@ import Carousel from "./components/carousel";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
 import StudentRanking from "./components/StudentRanking";
+import TopCreator from "./components/TopCreator";
 
 export default function Home() {
   return (
