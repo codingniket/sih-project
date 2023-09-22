@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const students = [
   { name: 'Ayush Kumar', points: 95, image: "/images/Creator.jpg" },
   { name: 'Shreya Paul', points: 88, image: 'jane.jpg' },
@@ -10,7 +8,7 @@ const students = [
   // Add more student data as needed
 ];
 
-const StudentRanking = () => {
+export default function StudentRanking () {
   // Sort students by points in descending order
   const sortedStudents = [...students].sort((a, b) => b.points - a.points);
 
@@ -50,4 +48,4 @@ const StudentRanking = () => {
   );
 };
 
-export default StudentRanking;
+
