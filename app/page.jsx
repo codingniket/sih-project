@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "./components/carousel";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
