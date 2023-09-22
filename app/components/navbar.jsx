@@ -11,6 +11,14 @@ export const navItems = [
     url: "/courses"
     },
     {
+    name : "Skills",
+    url: "/skills"
+    },
+    {
+    name : "Extra Curricular",
+    url: "/extracurricular"
+    }
+    {
     name : "About",
     url: "/about"
     },
