@@ -1,53 +1,47 @@
 export const popularCourses = [
   {
-    imageSrc: "/course_images/l2phy.png",
-    title: "Class 12 Physics",
+    imageSrc: "/images/Stats.jpg",
+    title: "STATISTICS FOR DATA SCIENCE",
     badge: "New",
-    description: "Learning Physics for class 12",
-    courseType: "Learning",
+    description:"The New Age Oil",
+    courseType:"College",
   },
   {
-    imageSrc: "/images/ml.png",
-    title: "Class 11 Mathematics",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
+    imageSrc: "/images/history.jpeg",
+    title: "THE INDIAN HISTORY",
+    badge: "Popular",
+    description:"The Hero of the time. Bharat ka Mahaverio ki khaani",
+    courseType:"College",
   },
   {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
+    imageSrc: "/images/MCOV.jpg",
+    title: "The Merchant of Venice",
+    badge: "Trending",
+    description:"Class X ICSC English Course",
+    courseType:"School",
   },
   {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
+    imageSrc: "/images/Java.png",
+    title: "CLASS X JAVA",
+    badge: "Rated",
+    description:"Class X ICSC Compelete Course",
+    courseType:"School",
   },
   {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
+    imageSrc: "/images/python.png",
+    title: "Python",
+    badge: "High Rated",
+    description:"Class X CBSC Compelete Course with projects",
+    courseType:"School",
   },
   {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
+    imageSrc: "/images/Econo.jpg",
+    title: "The Art Of Business",
+    badge: "New",
+    description:"The World Of Economics and Trade",
+    courseType:"Any",
   },
-  {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
-    badge: "InDemand",
-    description: "Learning About Machine",
-    courseType: "Learning",
-  },
+
 ];
 
 export default function Card() {
@@ -56,17 +50,17 @@ export default function Card() {
       <div className="carousel gap-4 w-full">
         {popularCourses.map((items, index) => (
           <div className="carousel-item py-4" key={index}>
-            <div className="w-[300px] sm:max-w-sm card  bg-base-100 shadow ">
+            <div className="w-[300px] sm:max-w-sm card  bg-base-100 shadow">
               <figure>
-                <img src={items.imageSrc} alt="Courses" />
+                <img src={items.imageSrc} alt="Courses"  />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">
                   {items.title}
-                  <div className="badge badge-error">{items.badge}</div>
                 </h2>
                 <p>{items.description}</p>
                 <div className="card-actions justify-end">
+                  <div className='badge badge-accent'>{items.badge}</div>
                   <div className="badge badge-outline">{items.courseType}</div>
                 </div>
               </div>
