@@ -1,12 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
-      <aside className="justify-center ">
-        <Image src='/images/Team.png' alt='Logo' width={80} height={80} quality={70} />
-        <p className="text-xl font-semibold text-[#f4c430]" href="#">GYANKOSH</p>
+      <aside className="items-center">
+        <img src='/images/Team.png' alt='Logo' className="h-12 w-12"/>
+        <p className="text-xl font-semibold text-warning" href="/">GYANKOSH</p>
       </aside> 
       <nav>
         <header className="footer-title">Services</header> 

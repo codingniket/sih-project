@@ -1,13 +1,12 @@
 import Link from "next/link"
-import Image from "next/image";
 
 export default function Creator()
 {
     return(
         <div className="hero min-h-screen bg-base-500 text-center">
             <div className="hero-content flex-col">
-                <div className="h-80 w-80 rounded-full my-10">
-                <Image src='/images/Creator.jpg' className="" />
+                <div className="h-80 w-80 rounded-full my-10 bg-red-500">
+                <img src='/images/Creator.jpg' alt="Creator"  />
                 </div>
                 <div>
                 <h1 className="text-5xl font-bold">Ayush Kumar</h1>
