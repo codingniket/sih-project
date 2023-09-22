@@ -4,7 +4,7 @@ import Logo from "@/public/images/Team.png"
 
 export default function Footer() {
   return (
-    <footer className="my-5 footer p-10 bg-base-200 text-base-content">
+    <footer className="footer p-10 bg-base-200 text-base-content">
       <aside className="justify-center ">
         <Image src={Logo} alt='Logo' width={80} quality={70} />
         <p className="text-xl font-semibold text-[#f4c430]" href="#">GYANKOSH</p>

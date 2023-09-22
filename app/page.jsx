@@ -3,6 +3,7 @@ import Carousel from "./components/carousel";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
 import TopCreator from "./components/TopCreator";
+import StudentRanking from "./components/StudentRanking";
 
 export default function Home() {
   return (
@@ -20,8 +21,11 @@ export default function Home() {
       <h1>Creator Of the Week</h1>
     </div>
     <TopCreator className="py-10" />
-
     
+    <div className="py-5">
+    <StudentRanking  />
+
+    </div>
     </div>
       );
 }
