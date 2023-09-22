@@ -1,6 +1,6 @@
 export const popularCourses = [
   {
-    imageSrc: "/course_images/l2phy.png",
+    imageSrc: "/course_images/l2phy.jpg",
     title: "Class 12 Physics",
     badge: "InDemand",
     description: "Learning Physics for class 12",
