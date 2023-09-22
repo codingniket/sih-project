@@ -1,10 +1,10 @@
 const students = [
   { name: 'Ayush Kumar', points: 95, image: "/images/Creator.jpg" },
-  { name: 'Shreya Paul', points: 88, image: 'jane.jpg' },
-  { name: 'Amit Kumar', points: 75, image: 'doe.jpg' },
-  { name: 'Pawan', points: 75, image: 'doe.jpg' },
-  { name: 'Niket', points: 75, image: 'doe.jpg' },
-  { name: 'Swattikee', points: 75, image: 'doe.jpg' },
+  { name: 'Shreya Paul', points: 93, image: "/images/Creator5.jpg" },
+  { name: 'Amit Kumar', points: 96, image: "/images/Creator2.jpg" },
+  { name: 'Pawan', points: 93, image: "/images/Creator4.jpg" },
+  { name: 'Niket', points: 95, image:"/images/Creator3.jpg" },
+  { name: 'Sattwikee Ghosh ', points: 94, image: "/images/Creator1.jpg" },
   // Add more student data as needed
 ];
 

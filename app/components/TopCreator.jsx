@@ -25,7 +25,7 @@ export default function TopCreator() {
             <div className="stat-figure text-secondary">
             <div className="avatar online">
                 <div className="w-16 rounded-full">
-                <Image src='/images/Creator.jpg' width={40} height={40} className="" />
+                <Image src='/images/Creator4.jpg' width={40} height={40} className="" />
                 </div>
             </div>
             </div>
