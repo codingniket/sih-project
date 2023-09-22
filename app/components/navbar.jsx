@@ -30,7 +30,7 @@ export const navItems = [
 
 export default function navbar() {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-base-100 text-sm py-4 fixed">
+    <header className=" bg-black flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4 fixed">
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
