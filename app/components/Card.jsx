@@ -1,9 +1,9 @@
 export const popularCourses = [
   {
-    imageSrc: "/images/ml.png",
-    title: "Machine Learning",
+    imageSrc: "/course_images/l2phy.png",
+    title: "Class 12 Physics",
     badge: "InDemand",
-    description: "Learning About Machine",
+    description: "Learning Physics for class 12",
     courseType: "Learning",
   },
   {
