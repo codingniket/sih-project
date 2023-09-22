@@ -22,7 +22,7 @@ export default function Home() {
     <TopCreator className="py-10" />
     
     <div className="py-5">
-    {/* <StudentRanking  /> */}
+    <StudentRanking  />
 
     </div>
     </div>
