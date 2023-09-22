@@ -17,7 +17,7 @@ export const navItems = [
     {
     name : "Extra Curricular",
     url: "/extracurricular"
-    }
+    },
     {
     name : "About",
     url: "/about"
