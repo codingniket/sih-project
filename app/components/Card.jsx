@@ -8,7 +8,7 @@ export const popularCourses = [
   },
   {
     imageSrc: "/images/ml.png",
-    title: "Machine Learning",
+    title: "Class 11 Mathematics",
     badge: "InDemand",
     description: "Learning About Machine",
     courseType: "Learning",
