@@ -4,23 +4,37 @@ export const ongoingCourses = [
     {
       imageSrc: "/images/cloud.png",
       title: "Google Cloud",
-      description: "Zero to Hero in 180 Days",
+      description: "Google Cloud Platform, offered by Google, is a suite of cloud computing services",
       LearningTime: 100, //In hours
       Completed: 40,
     },
     {
         imageSrc: "/images/compiler.png",
         title: "Compiler Design",
-        description: "How a computer works",
+        description: "Google Cloud Platform, offered by Google, is a suite of cloud computing services",
         LearningTime: 48, //In hours
         Completed: 20,
     },
     {
         imageSrc: "/images/machine.jpeg",
         title: "Machine Learning",
-        description: "Microsoft Certified Free Course",
+        description: "Machine learning is a branch of artificial intelligence (AI) and computer science",
         LearningTime: 72, //In hours
         Completed: 58,
+    },
+    {
+        imageSrc: "/images/hindi.jpg",
+        title: "गोदान",
+        description: "प्रेमचंद हिंदी के सबसे प्रसिद्ध उपन्यासकार हैं और गोदान प्रेमचंद का सबसे प्रसिद्ध उपन्यास है। ",
+        LearningTime: 200, //In hours
+        Completed: 68,
+    },
+    {
+        imageSrc: "/images/bengali.jpg",
+        title: "সহজ পাঠ",
+        description: "রবীন্দ্রনাথ ঠাকুরের লেখা একটি বাংলা ভাষা শেখার বই। এই বইটির দুটি সংস্করণে বাংলা ভাষা| ",
+        LearningTime: 24, //In hours
+        Completed: 14,
     },
 ]
 
