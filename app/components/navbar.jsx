@@ -15,6 +15,18 @@ export const navItems = [
     url: "/about"
     },
     {
+    name : "Library",
+    url: "https://book-finder-app-ebon.vercel.app/"
+    },
+    {
+    name : "Blog",
+    url: "/blog"
+    },
+    {
+    name : "R&D",
+    url: "/research"
+    },
+    {
     name : "Creator",
     url: "/creator"
     }
