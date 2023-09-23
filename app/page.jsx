@@ -9,11 +9,11 @@ export default function Home() {
     <div className="">
     <Carousel />
     <div className=" text-3xl font-extrabold px-4 text-white">
-      <h1>Ongoing Coures</h1>
+      <h1>Ongoing Courses</h1>
     </div>
     <Progress className="py-10" />
     <div className=" text-3xl font-extrabold px-4 text-white">
-      <h1>Popular Coures</h1>
+      <h1>Popular Courses</h1>
     </div>
     <Card className="py-10" />
     <div className="flex justify-center text-3xl font-extrabold px-4 text-warning">
