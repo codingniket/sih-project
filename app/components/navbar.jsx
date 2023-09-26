@@ -16,7 +16,8 @@ export const navItems = [
     },
     {
     name : "Library",
-    url: "https://book-finder-app-ebon.vercel.app/"
+    url: "https://book-finder-app-ebon.vercel.app/",
+    target:"_blank"
     },
     {
     name : "Blog",
@@ -94,6 +95,7 @@ export default function navbar() {
                 <Link key={index}
                 className="font-medium text-base text-white hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
                 href={items.url}
+                target={items.target}
               >
                
                 {items.name}
